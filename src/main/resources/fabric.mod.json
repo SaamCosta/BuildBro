@@ -1,0 +1,27 @@
+{
+	"schemaVersion": 1,
+	"id": "buildbro",
+	"version": "${version}",
+	"name": "BuildBro",
+	"description": "Describe a build in one sentence and Claude builds it in your world.",
+	"authors": [
+		"SaamCosta"
+	],
+	"contact": {
+		"sources": "https://github.com/SaamCosta/BuildBro",
+		"issues": "https://github.com/SaamCosta/BuildBro/issues"
+	},
+	"license": "MIT",
+	"environment": "client",
+	"entrypoints": {
+		"client": [
+			"io.github.saamcosta.buildbro.client.BuildBroClient"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.19.5",
+		"minecraft": "~26.2",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}
